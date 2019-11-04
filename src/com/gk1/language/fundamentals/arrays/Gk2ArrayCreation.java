@@ -46,6 +46,27 @@ public class Gk2ArrayCreation {
 		char character='a';
 		int[] charint=new int[character];
 		System.out.println(charint.length);
+		System.out.println("****************************************");
+		
+		System.out.println("Array Creation by using only base.");
+		int[][] twoDim1= new int[2][];
+		twoDim1[0] = new int[2];
+		twoDim1[1] = new int[1];
+		System.out.println(twoDim1);
+		System.out.println("****************************************");
+		
+		// Checking the internal Implementation
+		int[][] twoDim2=new int[2][];
+		System.out.println("We will get null: "+twoDim2[1]);
+		twoDim2[0] = new int[2];
+		// Assigning Values
+		twoDim2[0][0] = 0;
+		twoDim2[0][1] = 1;
+		System.out.println("twoDim2[0][0] :"+twoDim2[0][0]);
+		System.out.println("twoDim2[0][1] : "+twoDim2[0][1]);
+		System.out.println("twoDim2[1] :"+twoDim2[1]); // Null Pointer Has to throw because we didnt initialize the indexed 1.
+		
+		
 		
 	}
 }
