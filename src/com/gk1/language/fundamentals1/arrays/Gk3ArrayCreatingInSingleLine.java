@@ -1,4 +1,4 @@
-package com.gk1.language.fundamentals.arrays;
+package com.gk1.language.fundamentals1.arrays;
 
 public class Gk3ArrayCreatingInSingleLine {
 
