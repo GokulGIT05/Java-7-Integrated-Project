@@ -1,4 +1,4 @@
-package com.gk5.oops;
+package com.gk5.oops1;
 
 // Encapsulation
 public class Gk2EncapsulatedClass {

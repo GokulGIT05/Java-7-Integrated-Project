@@ -1,4 +1,4 @@
-package com.gk5.oops.inheritance;
+package com.gk5.oops2.inheritance;
 
 public class Gk1IsAInheritanceTest {
 
