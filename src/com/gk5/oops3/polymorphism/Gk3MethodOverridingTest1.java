@@ -35,7 +35,7 @@ public class Gk3MethodOverridingTest1 {
 		parent.modifierOverridding();
 		child.modifierOverridding();
 		poly.modifierOverridding();
-		// Applicable modifiers are for overriding is: default > protected > public
+		// Applicable modifiers are: default > protected > public
 		
 	}
 
