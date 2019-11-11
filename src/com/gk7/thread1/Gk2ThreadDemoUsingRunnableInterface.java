@@ -1,4 +1,4 @@
-package com.gk7.thread;
+package com.gk7.thread1;
 
 public class Gk2ThreadDemoUsingRunnableInterface {
 

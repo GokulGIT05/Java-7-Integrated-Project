@@ -1,4 +1,4 @@
-package com.gk7.thread.methods;
+package com.gk7.thread2.methods;
 
 public class Gk3ThreadJoinMethod {
 
