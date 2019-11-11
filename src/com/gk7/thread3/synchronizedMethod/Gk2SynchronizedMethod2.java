@@ -28,7 +28,8 @@ class SynchronizeDemo1 extends Thread {
 		syncMethodDemo(name);
 	}
 
-	// This will give irregular output.
+	// This will give irregular output. Because threads are operating in different
+	// Object
 	private synchronized void syncMethodDemo(String name) {
 
 		for (int i = 0; i < 10; i++) {
