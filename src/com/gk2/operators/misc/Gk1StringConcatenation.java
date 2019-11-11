@@ -1,4 +1,4 @@
-package com.gk2.operators.otheroperators;
+package com.gk2.operators.misc;
 
 public class Gk1StringConcatenation {
 

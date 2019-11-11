@@ -1,4 +1,4 @@
-package com.gk1.language.fundamentals2.variables;
+package com.gk1.languagefundamentals2.variables;
 
 public class Gk2StaticVarTest {
 

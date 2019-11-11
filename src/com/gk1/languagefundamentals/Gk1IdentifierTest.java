@@ -1,4 +1,4 @@
-package com.gk1.language.fundamentals;
+package com.gk1.languagefundamentals;
 
 public class Gk1IdentifierTest {
 

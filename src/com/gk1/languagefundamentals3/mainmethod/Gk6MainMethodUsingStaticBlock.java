@@ -1,4 +1,4 @@
-package com.gk1.language.fundamentals3.mainmethod;
+package com.gk1.languagefundamentals3.mainmethod;
 
 public class Gk6MainMethodUsingStaticBlock {
 

@@ -1,4 +1,4 @@
-package com.gk1.language.fundamentals1.arrays;
+package com.gk1.languagefundamentals1.arrays;
 
 public class Gk4ArrayLengthAndAnnonymous {
 
