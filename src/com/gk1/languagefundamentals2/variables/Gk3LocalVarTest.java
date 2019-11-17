@@ -2,6 +2,7 @@ package com.gk1.languagefundamentals2.variables;
 
 public class Gk3LocalVarTest {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
 		int local1 = 0; // Compulsory local variable should be initialized.

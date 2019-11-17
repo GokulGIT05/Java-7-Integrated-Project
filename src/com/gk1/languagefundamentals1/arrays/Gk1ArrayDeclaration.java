@@ -2,6 +2,7 @@ package com.gk1.languagefundamentals1.arrays;
 
 public class Gk1ArrayDeclaration {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		int[] x;

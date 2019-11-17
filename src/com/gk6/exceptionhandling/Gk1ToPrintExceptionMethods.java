@@ -2,6 +2,7 @@ package com.gk6.exceptionhandling;
 
 public class Gk1ToPrintExceptionMethods {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		try {

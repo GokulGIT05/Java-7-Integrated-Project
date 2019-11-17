@@ -8,7 +8,7 @@ import java.util.concurrent.Future;
 
 public class Gk2ThreadPoolDemoUsingCallable {
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
 
 		CallableDemo[] objArrays = { new CallableDemo(1), new CallableDemo(2), new CallableDemo(3), new CallableDemo(4),
@@ -29,6 +29,7 @@ public class Gk2ThreadPoolDemoUsingCallable {
 
 }
 
+@SuppressWarnings("rawtypes")
 class CallableDemo implements Callable {
 
 	int numvalueFromObj;

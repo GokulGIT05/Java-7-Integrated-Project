@@ -2,6 +2,7 @@ package com.gk5.oops1.inheritance;
 
 public class Gk3AssociationsTypes {
 
+	@SuppressWarnings("null")
 	public static void main(String[] args) {
 		// Associations are talks about Relation.
 		// Association Demo

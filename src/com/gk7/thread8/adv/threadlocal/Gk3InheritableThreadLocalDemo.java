@@ -23,8 +23,10 @@ class ParentThreadClass extends Thread {
 	 */
 
 	// Case 3: Child Default Values is not overriden.
+	@SuppressWarnings("rawtypes")
 	static InheritableThreadLocal localThreadVal = new InheritableThreadLocal();
 
+	@SuppressWarnings("unchecked")
 	public void run() {
 		localThreadVal.set("PARENT - THREAD");
 		System.out.println(localThreadVal.get());

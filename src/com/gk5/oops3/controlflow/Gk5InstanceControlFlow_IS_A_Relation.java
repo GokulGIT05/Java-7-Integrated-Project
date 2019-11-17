@@ -46,6 +46,7 @@ int instanceVar1  = 10;
 		System.out.println("Parent: Inside Constructor");
 	}
 	
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		System.out.println("Parent: Inside Main Method: Creating an Object");
 		ParentInstanceFlow object = new ParentInstanceFlow();

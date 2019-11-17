@@ -13,6 +13,7 @@ public class Gk4InstanceControlFlow {
 		System.out.println("Inside Constructor");
 	}
 	
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		System.out.println("Inside Main Method: Creating an Object");
 		Gk4InstanceControlFlow object = new Gk4InstanceControlFlow();

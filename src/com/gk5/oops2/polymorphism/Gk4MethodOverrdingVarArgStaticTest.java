@@ -2,6 +2,7 @@ package com.gk5.oops2.polymorphism;
 
 public class Gk4MethodOverrdingVarArgStaticTest {
 
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 
 		// 1. Method Hiding. Applicable for only static methods

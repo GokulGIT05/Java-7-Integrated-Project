@@ -1,8 +1,5 @@
 package com.gk3.flowcontrol;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Gk2LoopStatement {
 
 	public static void main(String[] args) {

@@ -7,6 +7,7 @@ public class Gk2StaticVarTest {
 	static String s = "GkStatic";
 	int instanceVar = 100;
 
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 
 		System.out.println("Default Value: " + int1);
