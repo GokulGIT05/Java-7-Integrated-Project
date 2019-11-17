@@ -1,4 +1,4 @@
-package com.gk8.innerclass;
+package com.gk9.innerclass;
 
 public class Gk1NormalInnerClassDemo {
 
