@@ -16,6 +16,7 @@ public class Gk2ListInterfaceMethodsUsingAL {
 		arrayListMainObj.add(27);
 		arrayListMainObj.add(36);
 		arrayListMainObj.add(99);
+		arrayListMainObj.add(null);
 		arrayListMainObj.add("TVL");
 		System.out.println("Initial ArrayList Object: " + arrayListMainObj);
 		System.out.println("***********************************************");
