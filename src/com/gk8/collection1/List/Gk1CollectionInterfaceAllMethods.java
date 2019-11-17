@@ -12,43 +12,49 @@ public class Gk1CollectionInterfaceAllMethods {
 		
 		List arrayListMainObj = new ArrayList<>();
 		
-		//Collection Interface 12 Methods
+		//Collection Interface 12 Methods using ArayList
 		
 		// 1.boolean add(Object o)
 		arrayListMainObj.add("GkString");
 		arrayListMainObj.add(27);
+		arrayListMainObj.add("Gk5");
 		arrayListMainObj.add(36);
 		arrayListMainObj.add(99);
-		arrayListMainObj.add("TVL");
+		arrayListMainObj.add("Gk5");
 		System.out.println("1. boolean add(Object o): "+arrayListMainObj);
 		System.out.println("**************************************");
 		
 		// 2.boolean addAll(Collection c)
 		List addAllDemo = Arrays.asList("Gk1","Gk2","Gk3","Gk4"); // Returns ArrayList
-		arrayListMainObj.addAll(addAllDemo);
-		System.out.println("2. boolean addAll(Collection c): "+arrayListMainObj);
+		boolean isAddAll = arrayListMainObj.addAll(addAllDemo);
+		System.out.println("2. boolean addAll(Collection c): "+isAddAll);
+		System.out.println("Main Obj : "+arrayListMainObj);
 		System.out.println("**************************************");
 		
 		// 3. boolean remove(Object o)
-		arrayListMainObj.remove("TVL"); // If i give number it throw ArrayIndexOutOfBound Exception.
-		System.out.println("3. boolean remove(Object o): "+arrayListMainObj);
+		boolean isRemove = arrayListMainObj.remove("Gk1"); // If i give number it throw ArrayIndexOutOfBound Exception.
+		System.out.println("3. boolean remove(Object o): "+isRemove);
+		System.out.println("Main Obj : "+arrayListMainObj);
 		System.out.println("**************************************");
 		
 		// 4. boolean removeAll(Collection c)
 		List removeALObj = new ArrayList<>();
 		removeALObj.add(27);
 		removeALObj.add("Gk1");
-		arrayListMainObj.removeAll(removeALObj);
-		System.out.println("4. boolean removeAll(Collection c): "+arrayListMainObj);
+		boolean isRemoveAll = arrayListMainObj.removeAll(removeALObj);
+		System.out.println("4. boolean removeAll(Collection c): "+isRemoveAll);
+		System.out.println("Main Obj : "+arrayListMainObj);
 		System.out.println("**************************************");
 		
 		// 5. boolean retainAll(Collection c)
 		List retailAllObj = new ArrayList<>();
+		retailAllObj.add("Gk5");
 		retailAllObj.add("Gk4");
 		retailAllObj.add(36);
 		retailAllObj.add("Gkkk3");
-		arrayListMainObj.retainAll(retailAllObj);
-		System.out.println("5. boolean retainAll(Collection c): "+arrayListMainObj);
+		boolean isRetailAll = arrayListMainObj.retainAll(retailAllObj);
+		System.out.println("5. boolean retainAll(Collection c): "+isRetailAll);
+		System.out.println("Main Obj : "+arrayListMainObj);
 		System.out.println("**************************************");
 			
 		// 6. boolean contains(Object o)
