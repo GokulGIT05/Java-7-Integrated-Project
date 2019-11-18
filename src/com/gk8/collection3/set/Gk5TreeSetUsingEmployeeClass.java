@@ -14,7 +14,7 @@ public class Gk5TreeSetUsingEmployeeClass {
 		empSet.add(new Employee(25, "Gk15"));
 		empSet.add(new Employee(15, "Gk4"));
 		empSet.add(new Employee(15, "Gk4")); // Employee Number wont be duplicate.
-		System.out.println("Default Natural Sorting Order by Employee Id: " + empSet);
+		System.out.println("Default Natural Sorting Order by Employee Id: \n" + empSet);
 		System.out.println("********************************");
 
 		// To Create a Custom Sort Order, Need to Create a Class
@@ -26,7 +26,7 @@ public class Gk5TreeSetUsingEmployeeClass {
 		empCustSorSet.add(new Employee(15, "Z"));
 		empCustSorSet.add(new Employee(15, "X"));
 		empCustSorSet.add(new Employee(55, "X")); // Sort Field wont be duplicate. Here employeeName wont be duplicate
-		System.out.println("Custom Sorting Order by Employee Name: " + empCustSorSet);
+		System.out.println("Custom Sorting Order by Employee Name: \n" + empCustSorSet);
 	}
 
 }
