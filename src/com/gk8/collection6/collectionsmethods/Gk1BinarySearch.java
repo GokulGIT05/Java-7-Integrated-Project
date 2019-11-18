@@ -24,7 +24,7 @@ public class Gk1BinarySearch {
 		System.out.println("After Sort: "+listObj);
 		
 		// 2. Search Method After Sorting.
-		// To Use Binary Search complusory sorting should be done
+		// To Use Binary Search compulsory sorting should be done
 		int index = Collections.binarySearch(listObj, 23);
 		System.out.println("Index of search string: "+index);
 		System.out.println("****************************");
@@ -36,7 +36,7 @@ public class Gk1BinarySearch {
 		int index1 = Collections.binarySearch(listObj, 23, obj);
 		System.out.println("Index of search string: "+index1);
 		int index2 = Collections.binarySearch(listObj, 10, obj);  // Not Found Value.
-		System.out.println("Index of search string: "+index2);
+		System.out.println("Insertion Point of search string: "+index2);
 		
 	}
 
