@@ -43,7 +43,7 @@ public class Gk3MethodOverridingTest1 {
 
 class ParentClass {
 
-	public void test() {
+	public /*static*/ void test() {
 		System.out.println("Parent Class: Called");
 	}
 
@@ -66,7 +66,7 @@ class ParentClass {
 class ChildClass extends ParentClass {
 
 	@Override
-	public void test() {
+	public /*static*/ void test() {
 		System.out.println("Child Class Called");
 	}
 
