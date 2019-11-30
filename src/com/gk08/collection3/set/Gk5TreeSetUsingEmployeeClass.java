@@ -31,6 +31,7 @@ public class Gk5TreeSetUsingEmployeeClass {
 
 }
 
+// By  Default it has to sort by employee id.
 @SuppressWarnings("rawtypes")
 class Employee implements Comparable {
 
@@ -68,6 +69,7 @@ class Employee implements Comparable {
 
 }
 
+// Custom Sort by Employee name. 
 @SuppressWarnings("rawtypes")
 class EmpNameCustSortOrder implements Comparator {
 
