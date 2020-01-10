@@ -42,6 +42,7 @@ interface ParentInterface{
 	
 }
 
+// Interface can't use implements keywords, Only extends allowed.
 interface ChildInterface1 extends ParentInterface{
 	
 	public abstract void childInterface1();

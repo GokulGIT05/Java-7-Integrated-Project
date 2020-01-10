@@ -24,7 +24,7 @@ public class Gk2StaticVarTest {
 
 		Gk2StaticVarTest obj2 = new Gk2StaticVarTest();
 		System.out.println("Object1: " + obj1.int1 + " :: Object2: " + obj2.int1);
-		// Hence once we assign a value to static variable it will be same, because it
+		// Hence once we assign a new value to static variable it will be same, because it
 		// stored in class level
 
 		System.out.println("obj2: " + obj2.int1 + " ## " + "Default value will be reassigned for instance var: "

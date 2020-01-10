@@ -6,7 +6,7 @@ public class Gk1StringBufferConstructors {
 		
 		// 1. Default Constructor.
 		StringBuffer stringBuffer1 = new StringBuffer();
-		System.out.println(stringBuffer1.capacity());
+		System.out.println(stringBuffer1.capacity()); // 16
 		System.out.println(stringBuffer1);
 		System.out.println("*********************************");
 		
@@ -17,7 +17,7 @@ public class Gk1StringBufferConstructors {
 		System.out.println("*********************************");
 		
 		// 3. Constructor with literal.
-		StringBuffer stringBuffer3 = new StringBuffer("12345");
+		StringBuffer stringBuffer3 = new StringBuffer("12345"); // 5 +16 Capacity
 		System.out.println(stringBuffer3.capacity());
 		System.out.println(stringBuffer3);
 		System.out.println("*********************************");

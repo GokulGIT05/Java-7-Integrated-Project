@@ -4,8 +4,11 @@ public class Gk2StringBufferMethods {
 
 	public static void main(String[] args) {
 
-		StringBuffer mainStringBufferObj = new StringBuffer("123");
-
+		StringBuffer mainStringBufferObj = new StringBuffer("0123");
+		String s1 = mainStringBufferObj.toString();
+		System.out.println(s1);
+		System.out.println("***********************************");
+		
 		// 12 Methods.
 
 		// 1. public synchronized int length()

@@ -13,6 +13,7 @@ public class Gk7PrintWriterDemo {
 		pw.println("Test");
 		pw.println(true);
 		pw.println('C');
+		pw.println("Hi to Test");
 
 		// Recommended Always to Close
 		pw.flush();

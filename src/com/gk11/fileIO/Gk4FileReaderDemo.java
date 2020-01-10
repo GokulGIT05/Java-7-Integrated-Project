@@ -15,12 +15,12 @@ public class Gk4FileReaderDemo {
 			// Need to do Type Casting.
 			char[] eachChar = new char[(int) theFile.length()]; // Creating a char array.
 			// public int read(char cbuf[]) throws IOException
-			System.out.println(fReader.read(eachChar)); // Passinf Char[], read method will load the data.
+			System.out.println(fReader.read(eachChar)); // Passing Char[], read method will load the data.
 			for (char each : eachChar) {
 				System.out.println(each);
 			}
 			fReader.close();
-			
+
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {

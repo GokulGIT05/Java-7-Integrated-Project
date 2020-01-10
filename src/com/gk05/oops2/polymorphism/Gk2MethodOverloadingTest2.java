@@ -5,6 +5,8 @@ import java.util.Arrays;
 public class Gk2MethodOverloadingTest2 {
 
 	public static void main(String[] args) {
+		
+		// By Passing parent reference to call child parameter 
 		Gk2MethodOverloadingTest2 test = new Gk2MethodOverloadingTest2();
 		
 		test.objectMethodOverload("Gokul");

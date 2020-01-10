@@ -41,12 +41,14 @@ public class Gk2StringClassMethods {
 
 		// 5. public String substring(int beginIndex)
 		System.out.println("5. public String substring(int beginIndex)");
-		String subStr1 = strMainObj.substring(2);
+		System.out.println("Before String: "+strMainObj);
+		String subStr1 = strMainObj.substring(1);  
 		System.out.println(subStr1);
 		System.out.println("********************");
 
 		// 6. public String substring(int beginIndex, int endIndex)
 		System.out.println("6. public String substring(int beginIndex, int endIndex)");
+		System.out.println("Before String: "+strMainObj);
 		String subStr2 = strMainObj.substring(1, 3);
 		System.out.println(subStr2);
 		System.out.println("********************");
