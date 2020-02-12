@@ -8,6 +8,8 @@ public class Gk5TreeSetUsingEmployeeClass {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 
+		// If we are depending on DNSO, then compulsory we need to implement comparable
+		// interface
 		TreeSet<Employee> empSet = new TreeSet<Employee>();
 		empSet.add(new Employee(5, "Gk25"));
 		empSet.add(new Employee(35, "Gk10"));
@@ -78,10 +80,10 @@ class EmpNameCustSortOrder implements Comparator {
 		// TODO Auto-generated method stub
 		Employee newObj = (Employee) o1;
 		Employee oldObj = (Employee) o2;
-		
+
 		String newObjEmpName = newObj.name;
 		String oldObjEmpName = oldObj.name;
-		
+
 		// Ascending Order by Name
 		return newObjEmpName.compareTo(oldObjEmpName);
 	}

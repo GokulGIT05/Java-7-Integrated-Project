@@ -16,7 +16,7 @@ public class Gk3ThreadJoinMethod {
 			e.printStackTrace();
 		} 
 		
-		// Main Thread Executeafter ci
+		// Main Thread Execute after child
 		for (int i = 0; i < 10; i++) {
 			System.out.println("Inside Main Method");
 		}

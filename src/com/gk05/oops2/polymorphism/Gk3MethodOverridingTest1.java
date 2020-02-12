@@ -1,5 +1,8 @@
 package com.gk05.oops2.polymorphism;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Gk3MethodOverridingTest1 {
 
 	public static void main(String[] args) {
@@ -13,8 +16,10 @@ public class Gk3MethodOverridingTest1 {
 
 		// Parent Reference but Child Object
 		ParentClass poly = new ChildClass();
+		System.out.println("Calling...");
 		poly.test(); // Child Class . Because runtime polymorphism. Overriding
 		poly.parentNormalMethod(); // Only Parent Class will be called
+
 		System.out.println("*****************************");
 		
 		/*
@@ -36,6 +41,7 @@ public class Gk3MethodOverridingTest1 {
 		child.modifierOverridding();
 		poly.modifierOverridding();
 		// Applicable modifiers are: default > protected > public
+		
 		
 	}
 

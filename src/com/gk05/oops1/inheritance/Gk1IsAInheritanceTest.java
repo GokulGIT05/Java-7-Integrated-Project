@@ -43,6 +43,11 @@ public class Gk1IsAInheritanceTest {
 		middleObj.childMethod();
 		middleObj.parentMethod();
 		System.out.println(middleObj.name);
+		System.out.println("*****************************");
+		
+		// In terms of overriding.
+		Parent overridingObj = new ChildClass1();
+		overridingObj.testOverride();
 		
 	}
 
@@ -54,12 +59,21 @@ class Parent {
 	public void parentMethod() {
 		System.out.println("Parent Class: parentMethod() Called");
 	}
+	
+	public void testOverride() {
+		System.out.println("Parent Class: testOverride() Called ");
+	}
 }
 
 class ChildClass1 extends Parent {
 
 	public void childMethod() {
 		System.out.println("child1 Class: childMethod() Called");
+	}
+	
+	@Override
+	public void testOverride() {
+		System.out.println("Child Class: testOverride() Called ");
 	}
 }
 
