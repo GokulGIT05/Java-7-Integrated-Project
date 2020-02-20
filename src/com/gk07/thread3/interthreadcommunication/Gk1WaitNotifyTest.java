@@ -11,7 +11,7 @@ public class Gk1WaitNotifyTest {
 
 		synchronized (threadObj) {
 
-			threadObj.wait(); // till same object call notify, this won't execute.
+			 threadObj.wait(); // till same object call notify, this won't execute.
 			for (int i = 0; i < 10; i++) {
 				System.out.println("Wait is Over!!!");
 			}
@@ -28,6 +28,7 @@ class InterThread extends Thread {
 
 		// this -> Means which object has call this it owns lock.
 		synchronized (this) {
+			
 			for (int i = 0; i <= 25; i++) {
 				System.out.println("Simply Printing values i: " + i);
 			}

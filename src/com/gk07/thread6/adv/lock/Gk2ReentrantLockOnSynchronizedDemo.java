@@ -10,6 +10,7 @@ public class Gk2ReentrantLockOnSynchronizedDemo {
 		DisplayThread display = new DisplayThread();
 		
 		// We are passing same display object to the different object.
+		// if Different Display object means we might get irregular output.
 		ReentrantLockDemo1 lockDemo1 = new ReentrantLockDemo1(display);
 		ReentrantLockDemo1 lockDemo2 = new ReentrantLockDemo1(display);
 		ReentrantLockDemo1 lockDemo3 = new ReentrantLockDemo1(display);

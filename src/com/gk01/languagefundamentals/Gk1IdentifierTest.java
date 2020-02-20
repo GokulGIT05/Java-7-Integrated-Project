@@ -18,6 +18,15 @@ public class Gk1IdentifierTest {
 		
 		int _$_$_ = 10;
 		System.out.println(_$_$_);
+		
+		int Integer  = 100;
+		System.out.println(Integer);
+		
+		// 53 Keywords can't be used as identifier
+		
+		int _3 = 5;
+		System.out.println(_3);
+		
 	}
 
 }

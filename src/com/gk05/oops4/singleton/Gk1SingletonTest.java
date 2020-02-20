@@ -14,12 +14,12 @@ public class Gk1SingletonTest {
 
 }
 
-class SingletonClass{
+ class SingletonClass{
 	
 	// Static Instance Modifier. Because it should call from static method
 	private static SingletonClass singletonClassObj = null;
 	
-	//Private Constructor. To Restrict creation of an object.
+	//Private Constructor. To Restrict creation of an child class
 	private SingletonClass() {
 		super();
 	}
@@ -33,3 +33,13 @@ class SingletonClass{
 	}
 	
 }
+ 
+/*class ChildSingleton extends SingletonClass{
+	
+	public ChildSingleton() {
+	this(18);	
+	}
+
+	public ChildSingleton(int i) {
+	}
+}*/

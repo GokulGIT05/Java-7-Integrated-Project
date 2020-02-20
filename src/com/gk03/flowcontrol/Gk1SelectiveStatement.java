@@ -28,9 +28,6 @@ public class Gk1SelectiveStatement {
 		
 		default:
 			System.out.println("default statement");
-		
-		
-		
 		}
 
 	}

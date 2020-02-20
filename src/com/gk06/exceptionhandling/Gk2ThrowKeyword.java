@@ -4,14 +4,14 @@ public class Gk2ThrowKeyword {
 
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
-		
+
 		try {
-			int i = 10/0;
-		}catch (Exception e) {
+			int i = 10 / 0;
+		} catch (Exception e) {
 			e.printStackTrace();
-			throw new ArithmeticException("Checking throw keyword");		}
-		
-		
+			throw new ArithmeticException("Checking throw keyword");
+		}
+
 	}
 
 }
