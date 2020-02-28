@@ -26,7 +26,7 @@ class ParentThreadClass extends Thread {
 	@SuppressWarnings("rawtypes")
 	static InheritableThreadLocal localThreadVal = new InheritableThreadLocal();
 
-	@SuppressWarnings("unchecked")s
+	@SuppressWarnings("unchecked")
 	public void run() {
 		localThreadVal.set("PARENT - THREAD");
 		System.out.println(localThreadVal.get());
